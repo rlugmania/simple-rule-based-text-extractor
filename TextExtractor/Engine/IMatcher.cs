@@ -4,7 +4,8 @@ using System.Text;
 
 namespace TextExtractor.Engine
 {
-    interface IMatcher
+    public interface IMatcher
     {
+        string Match(string[] data);
     }
 }

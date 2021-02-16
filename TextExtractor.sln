@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextExtractor", "TextExtractor\TextExtractor.csproj", "{4BD5CF8A-CB72-4CFA-AA3A-426B7CC282A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextExtractor", "TextExtractor\TextExtractor.csproj", "{4BD5CF8A-CB72-4CFA-AA3A-426B7CC282A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{053E09EF-B1AE-4BA8-B7D5-10129605ADCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextExtractorTests", "TextExtractorTests\TextExtractorTests.csproj", "{48D7783F-2B67-490F-91FD-0414A0974FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkTests", "..\BenchmarkTests\BenchmarkTests.csproj", "{B7D4CDEB-CA9F-4ABB-AD32-8D9C2C024186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextExtractorProfiling", "..\TextExtractorProfiling\TextExtractorProfiling.csproj", "{84EE7314-1966-46DB-A53B-E0889A2B04F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,26 @@ Global
 		{4BD5CF8A-CB72-4CFA-AA3A-426B7CC282A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BD5CF8A-CB72-4CFA-AA3A-426B7CC282A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BD5CF8A-CB72-4CFA-AA3A-426B7CC282A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D7783F-2B67-490F-91FD-0414A0974FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D7783F-2B67-490F-91FD-0414A0974FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D7783F-2B67-490F-91FD-0414A0974FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D7783F-2B67-490F-91FD-0414A0974FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D4CDEB-CA9F-4ABB-AD32-8D9C2C024186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D4CDEB-CA9F-4ABB-AD32-8D9C2C024186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D4CDEB-CA9F-4ABB-AD32-8D9C2C024186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D4CDEB-CA9F-4ABB-AD32-8D9C2C024186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84EE7314-1966-46DB-A53B-E0889A2B04F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EE7314-1966-46DB-A53B-E0889A2B04F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EE7314-1966-46DB-A53B-E0889A2B04F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EE7314-1966-46DB-A53B-E0889A2B04F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48D7783F-2B67-490F-91FD-0414A0974FD2} = {053E09EF-B1AE-4BA8-B7D5-10129605ADCD}
+		{B7D4CDEB-CA9F-4ABB-AD32-8D9C2C024186} = {053E09EF-B1AE-4BA8-B7D5-10129605ADCD}
+		{84EE7314-1966-46DB-A53B-E0889A2B04F9} = {053E09EF-B1AE-4BA8-B7D5-10129605ADCD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8CDDA6D-C871-423D-8F69-2C447092CD99}

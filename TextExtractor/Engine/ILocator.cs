@@ -4,7 +4,10 @@ using System.Text;
 
 namespace TextExtractor.Engine
 {
-    interface ILocator
+    public interface ILocator
     {
+        string Name { get; set; }
+
+        IEnumerable<string> TryExtraction(string [] data);
     }
 }
